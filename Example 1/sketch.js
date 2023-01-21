@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-    background(109, 100, 90); //background color
+    background(109, 100, 90); //Background Color
     push();
     fill(100, 0, 100); //Fill with White
     ellipse(200, 200, 350, 350); //Circle
