@@ -5,20 +5,19 @@ function setup() {
 }
 
 function draw() {
-    //background(0, 0, 100);
     push();
     noStroke();
     fill(244, 173, 171, 100);
-    ellipse(200, 70, 100, 100);
+    ellipse(200, 70, 100, 100); //Red Circle
     pop();
     push();
     noStroke();
     fill(169, 168, 251, 100);
-    ellipse(170, 120, 100, 100);
+    ellipse(170, 120, 100, 100); //Blue Circle
     pop();
     push();
     noStroke();
     fill(187, 254, 175, 100);
-    ellipse(230, 120, 100, 100);
+    ellipse(230, 120, 100, 100); //Green Circle
     pop();
 }
