@@ -9,10 +9,6 @@ function draw() {
     strokeWeight(4); //outline size
     fill(52, 126, 25);
     ellipse(200, 200, 200, 200); //Circle
-    pop();
-    push();
-    stroke(255, 255, 255);
-    strokeWeight(4);
     fill(237, 49, 19);
     star(200, 200, 100, 40, 5); //Star with 5 points
     pop();
