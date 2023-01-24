@@ -19,7 +19,7 @@ function star(x, y, radius1, radius2, npoints) {
     //but modified it so that it shows in the correct rotation for every n like 5
     let angle = TWO_PI / npoints;
     let halfAngle = angle / 2.0;
-    let doublepts = (PI / 2) * npoints;
+    let doublepts = (PI / 2) * npoints; // This is what I did
     beginShape();
     for (let a = 0; a < TWO_PI; a += angle) {
         let sx = x + cos(a + doublepts) * radius2;
